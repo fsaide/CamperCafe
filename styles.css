@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400&display=swap');
+
+body {
+    background-image: url('https://i.imgur.com/TYs43eJ.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    color: #3E2723;
+    /* Color de texto principal */
+    margin: 0;
+}
+
+.menu {
+    width: 80%;
+    background-color: rgba(239, 235, 233, 0.9);
+    /* Color beige claro con transparencia */
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    color: #5D4037;
+    /* Color café oscuro */
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: #6D4C41;
+    /* Otro tono de café */
+    margin: 20px 0;
+}
+
+.established {
+    font-style: italic;
+    font-size: 18px;
+    color: #8D6E63;
+    /* Color café intermedio */
+    margin-bottom: 20px;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #5D4037;
+    /* Color café oscuro */
+    margin: 20px 0;
+}
+
+.bottom-line {
+    margin-top: 25px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-bottom: 1px solid #BCAAA4;
+    /* Color café claro */
+}
+
+.flavor,
+.dessert {
+    text-align: left;
+    width: 70%;
+}
+
+.price {
+    text-align: right;
+    width: 30%;
+    color: #5D4037;
+    /* Color café oscuro */
+}
+
+img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100px;
+    border-radius: 10px;
+}
+
+footer {
+    font-size: 14px;
+    margin-top: 20px;
+    color: #8D6E63;
+    /* Color café intermedio */
+}
+
+.address {
+    margin-bottom: 5px;
+}
+
+a {
+    color: #5D4037;
+    /* Color café oscuro */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:visited {
+    color: #5D4037;
+    /* Color café oscuro */
+}
+
+a:hover {
+    color: #8D6E63;
+    /* Color café intermedio */
+}
+
+a:active {
+    color: #8D6E63;
+    /* Color café intermedio */
+}
